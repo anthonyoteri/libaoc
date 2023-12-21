@@ -5,7 +5,7 @@
 /// # Example:
 ///
 /// ```
-/// use stdlib::math::lcm;
+/// use aoc::math::lcm;
 ///
 /// let nums = [2, 3, 4, 5, 6];
 /// let result = lcm(&nums);
@@ -27,7 +27,7 @@ pub fn lcm(input: &[i64]) -> i64 {
 /// # Example:
 ///
 /// ```
-/// use stdlib::math::gcd;
+/// use aoc::math::gcd;
 ///
 /// let result = gcd(12, 18);
 /// assert_eq!(6, result);
